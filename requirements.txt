@@ -1,6 +1,0 @@
-Flask
-Werkzeug
-os
-pytest
-requests
-argparse
