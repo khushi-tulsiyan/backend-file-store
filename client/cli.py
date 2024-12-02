@@ -2,7 +2,7 @@ import argparse
 import requests
 import os
 
-BASE_URL = "http://127.0.0.1:5000"  # Update with server URL according to your needs
+BASE_URL = "http://127.0.0.1:5000"  
 
 def add_files(files):
     for file_path in files:
