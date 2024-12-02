@@ -8,6 +8,11 @@ app = Flask(__name__)
 STORAGE_DIR = "./storage"
 os.makedirs(STORAGE_DIR, exist_ok=True)
 
+@app.route('/')
+def index():
+    return "File Store Service is running!"
+
+
 @app.route('/add', methods=['POST'])
 def add():
     if 'file' not in request.files:
