@@ -36,7 +36,7 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/backend-file-store.git
+   git clone https://github.com/khushi-tulsiyan/backend-file-store.git
    cd backend-file-store
    ```
 
@@ -88,7 +88,7 @@ The client is a command-line tool for interacting with the server.
 
 2. To add files to the server:
    ```bash
-   python cli.py add <file1> <file2> ...
+   python cli.py add file1.txt file2.txt file3.txt ...
    ```
 
 3. To list all files:
@@ -98,7 +98,7 @@ The client is a command-line tool for interacting with the server.
 
 4. To remove a file:
    ```bash
-   python cli.py remove <filename>
+   python cli.py remove file3.txt
    ```
 
 5. To update a file:
